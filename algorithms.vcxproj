@@ -33,18 +33,24 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
+    <ClInclude Include="add_binary_integers.h" />
     <ClInclude Include="insertion_sort.h" />
+    <ClInclude Include="linear_search.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="add_binary_integers.cpp" />
     <ClCompile Include="insertion_sort.cpp" />
     <ClCompile Include="insertion_sort_test.cpp" />
+    <ClCompile Include="linear_search.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="linear_search_test.cpp" />
+    <ClCompile Include="add_binary_integers_test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
