@@ -15,7 +15,7 @@ int* insertion_sort(int* A, int n) {
 
 	
 		// Debug Logging to see the sorting going on : 
-		if (n < 20) {
+		if (n < 5) {
 			for (int i = 0; i < n; i++) {
 				std::cout << A[i] << " ";
 			} 		std::cout << "| key: " << key << " | ";
@@ -39,7 +39,7 @@ int* insertion_sort_decreasing(int* A, int n) {
 
 
 		// Debug Logging to see the sorting going on : 
-		if (n < 20) {
+		if (n < 5) {
 			for (int i = 0; i < n; i++) {
 				std::cout << A[i] << " ";
 			} 		std::cout << "| key: " << key << " | ";

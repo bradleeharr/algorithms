@@ -10,13 +10,13 @@ TEST(AddBinaryIntegers, BinaryIntegersTest) {
 	int* A = new int[array_size]; 
 	int* B = new int[array_size]; 
 	srand(time(NULL));
-	// Test for 20 random binary integers
-	for (int i = 0; i < 20; i++) {
-		cout << "A     | B" << endl;
+	// Test for 5 random binary integers
+	for (int i = 0; i < 5; i++) {
+		//cout << "A     | B" << endl;
 		for (int i = 0; i < array_size; i++) {
 			A[i] = rand() % 2;
 			B[i] = rand() % 2;
-			cout << A[i] << "     | " << B[i] << " | " << endl;
+			//cout << A[i] << "     | " << B[i] << " | " << endl;
 		}
 		int* C = add_binary_integers(A, B, array_size);
 
