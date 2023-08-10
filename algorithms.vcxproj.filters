@@ -26,6 +26,12 @@
     <ClCompile Include="merge_sort_test.cpp">
       <Filter>merge_sort</Filter>
     </ClCompile>
+    <ClCompile Include="makingameowth.cpp">
+      <Filter>kattis</Filter>
+    </ClCompile>
+    <ClCompile Include="pulverizingpancake.cpp">
+      <Filter>kattis</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -40,6 +46,12 @@
     </ClInclude>
     <ClInclude Include="insertion_sort.h">
       <Filter>insertion_sort</Filter>
+    </ClInclude>
+    <ClInclude Include="makingameowth.h">
+      <Filter>kattis</Filter>
+    </ClInclude>
+    <ClInclude Include="pulverizingpancake.h">
+      <Filter>kattis</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -57,6 +69,9 @@
     </Filter>
     <Filter Include="merge_sort">
       <UniqueIdentifier>{7e559191-ef4c-43ab-b187-b06cd52b1f62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kattis">
+      <UniqueIdentifier>{d3174cb1-d3e9-4cbf-b92c-91a5af85367c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
