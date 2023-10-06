@@ -32,6 +32,9 @@
     <ClCompile Include="pulverizingpancake.cpp">
       <Filter>kattis</Filter>
     </ClCompile>
+    <ClCompile Include="gymleadersterritory.cpp">
+      <Filter>kattis</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -51,6 +54,9 @@
       <Filter>kattis</Filter>
     </ClInclude>
     <ClInclude Include="pulverizingpancake.h">
+      <Filter>kattis</Filter>
+    </ClInclude>
+    <ClInclude Include="gymleadersterritory.h">
       <Filter>kattis</Filter>
     </ClInclude>
   </ItemGroup>

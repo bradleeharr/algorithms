@@ -34,6 +34,7 @@
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
     <ClInclude Include="add_binary_integers.h" />
+    <ClInclude Include="gymleadersterritory.h" />
     <ClInclude Include="insertion_sort.h" />
     <ClInclude Include="linear_search.h" />
     <ClInclude Include="makingameowth.h" />
@@ -43,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="add_binary_integers.cpp" />
+    <ClCompile Include="gymleadersterritory.cpp" />
     <ClCompile Include="insertion_sort.cpp" />
     <ClCompile Include="insertion_sort_test.cpp" />
     <ClCompile Include="linear_search.cpp" />

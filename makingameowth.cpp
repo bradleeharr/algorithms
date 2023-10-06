@@ -1,6 +1,5 @@
 #include <iostream>
 #include "pch.h"
-#include "merge_sort.h"
 // https://open.kattis.com/contests/h3idua/problems/makingameowth
 using namespace std;
 

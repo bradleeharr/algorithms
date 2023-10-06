@@ -1,10 +1,9 @@
 #include <iostream>
 #include "pch.h"
-#include "merge_sort.h"
 // https://open.kattis.com/contests/h3idua/problems/pulverizingpancake
 using namespace std;
 
-int main() {
+int mainpancake() {
 	int N; // Number of Columns in the World
 	int M; // Number of Columns with Wild Pokemon in them
 	cin >> N >> M;
