@@ -30,7 +30,31 @@
 	\begin{enumerate}
 		\item Partition the input matrices A and B and output matrix C into $n/2 \times n/2$ 
 		$$ A_{11} = 1, A_{12} = 3, A_{21} = 7, A_{22} = 5 $$
-		$$ B_{11} = 6, B_{12} = 8, B_{21} = 4, B_{22} = 4 $$
-		
+		$$ B_{11} = 6, B_{12} = 8, B_{21} = 4, B_{22} = 2 $$
+		\item Set up the sum or difference in 10 matrices
+		$$ S_1 = B_{12} - B_{22} = 6 $$
+		$$ S_2 = A_{11} + A_{12} = 4 $$
+		$$ S_3 = A_{21} + A_{22} = 12 $$
+		$$ S_4 = B_{21} - B_{11} = -2 $$ 
+		$$ S_5 = A_{11} + A_{22} = 6 $$
+		$$ S_6 = B_{11} + B_{22} = 8 $$
+		$$ S_7 = A_{12} - A_{22}  -2 $$
+		$$ S_8 = B_{21} + B_{22} = 6 $$
+		$$ S_9 = A_{11} - A_{21} = -6 $$
+		$$ S_10 = B_{11} + B_{12} = 14 $$ 
+		This step adds $n/2 \times n/2$ matrices, taking $O(n^2)$ time.
+		\item Step 3 recursively multiplies $n/2 \times n/2$ matrices 7 times.
+		$$ P_1 = A_{11}.S_1 = 6 $$
+		$$ P_2 = S_2. B_{22} = 8 $$
+		$$ P_3 = S_3 . B_{11} = 72 $$
+		$$ P_4 = A_{22}.S_4 = -10 $$
+		$$ P_5 = S_5.S_6 = 48 $$
+		$$ P_6 = S_7.S_8 = -12 $$
+		$$ P_7 = S_9.S_10 = - 84$$
+		\item Step 4 adds to and subtracts to create the $C$ product matrix
+		$$ C_{11} = C_{11} + P_5 + P_4 - P_2 + P_6 = 18$$
+		$$ C_{12} = C_{12} + P_1 + P_2 = -10 + 16 = 14 $$
+		$$ C_{21} = C_{21} + P_3 + P_4 = 66 - 10 = 62 $$
+		$$ C_{22} = C_{22} + P_5 + P_1 - P_3 - P_7 = 46$$
 	\end{enumerate}
 \end{document}

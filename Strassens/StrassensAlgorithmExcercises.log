@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.5)  6 OCT 2023 00:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.5)  6 OCT 2023 00:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -684,12 +684,12 @@ Overfull \hbox (0.3441pt too wide) in paragraph at lines 19--20
 
 [1
 
-{C:/Users/bubba/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+{C:/Users/bubba/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
 (StrassensAlgorithmExcercises.aux) ) 
 Here is how much of TeX's memory you used:
  24038 strings out of 478582
  624981 string characters out of 2844345
- 1018612 words of memory out of 3000000
+ 1019612 words of memory out of 3000000
  41845 multiletter control sequences out of 15000+600000
  477715 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -703,9 +703,9 @@ s/bubba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
 <C:/Users/bubba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 r8.pfb><C:/Users/bubba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb>
-Output written on StrassensAlgorithmExcercises.pdf (1 page, 80242 bytes).
+Output written on StrassensAlgorithmExcercises.pdf (2 pages, 85278 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
+ 47 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
