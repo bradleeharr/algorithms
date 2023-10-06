@@ -1,0 +1,36 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{pgfplots}
+
+\usepackage{amssymb}
+\graphicspath{{images/}}
+\setlength{\parindent}{2pt}
+\usepackage[export]{adjustbox} % For additional adjustments
+
+\begin{document}
+	
+	\title{Excercises from Introduction to Algorithms 4th Edition}
+	\author{Bradlee Harrison}
+	\date{October 6 2023}
+	\maketitle
+	\section{Strassen's Algorithm}
+	Strassen's algorithm is an efficent algorithm for matrix multiplication. Rather than $O(n^3)$ runtime, it is capable of $O(n^2.81)$ runtime.
+	
+	\subsection*{Problem 4.2-1}
+	Use Strassen's algorithm to compute the matrix product
+	$$
+	\begin{pmatrix}
+		1 & 3 \\ 7 & 5 
+	\end{pmatrix} .
+	\begin{pmatrix}
+		6 & 8 \\ 4 & 2
+	\end{pmatrix}$$
+	\begin{enumerate}
+		\item Partition the input matrices A and B and output matrix C into $n/2 \times n/2$ 
+		$$ A_{11} = 1, A_{12} = 3, A_{21} = 7, A_{22} = 5 $$
+		$$ B_{11} = 6, B_{12} = 8, B_{21} = 4, B_{22} = 4 $$
+		
+	\end{enumerate}
+\end{document}
