@@ -26,3 +26,4 @@ Rather than break the array up into equal n/3 chunks, lets say the largest value
 * Each of these **_l_** values must pass through the **_m_** positions, one position at a time -- by at least **m*** executions
 * Then, the time taken by INSERTION-SORT is then proportional to (**_l_** * **_m_**)
 * = ([**_n_** - **_m_**]/2)([**_n_**-**_l_**]/2), expanding to (**_n_**-**_m_**)(**_n_**-**_l_**)/4, or (**_n_**^2 - **_mn_** - **_ln_** + **_ml_**)
+* This is on Θ(n^2)
